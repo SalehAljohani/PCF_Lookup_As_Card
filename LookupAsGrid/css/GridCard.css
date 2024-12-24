@@ -1,0 +1,41 @@
+#gridCard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    #gridCard td, #gridCard th {
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #gridCard tr:hover {
+        background-color: #ddd;
+    }
+
+    #gridCard th {
+        padding-left: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #f5f5f5;
+        width: 30%;
+        font-weight: 600;
+    }
+
+    #gridCard td {
+        text-align: inherit;
+        font-weight: bold;
+        padding-top: 13px;
+        word-break: break-word;
+        white-space: pre-line;
+        padding: 8px;
+    }
+
+    #gridCard td[dir="rtl"] {
+        text-align: right;
+    }
+
+    #gridCard td[dir="ltr"] {
+        text-align: left;
+    }

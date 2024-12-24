@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="Netways" constructor="LookupAsCard" version="0.0.1"
+    display-name-key="Card View for Lookup"
+    description-key="Displays lookup field data in a card format with configurable fields"
+    control-type="standard">
+
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="lookupField"
+      display-name-key="Lookup Field"
+      description-key="Select the lookup field to display data from"
+      of-type="Lookup.Simple"
+      usage="bound"
+      required="true" />
+
+    <property name="ViewName"
+      display-name-key="View Name"
+      description-key="Name of the View you want to show as card"
+      of-type="SingleLine.TextArea"
+      usage="input"
+      required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/GridCard.css" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
