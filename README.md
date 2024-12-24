@@ -1,8 +1,6 @@
 # PCF - Lookup As Card  
 A PCF control that transforms a lookup field into a card view, while retaining the lookup field functionality elsewhere on the form.
 
-![Lookup As Card Preview](https://github.com/user-attachments/assets/7c0a806b-a530-4932-936c-3772963405a0)
-
 ## Overview  
 This PCF control is a fork of the [PCF_GridCard](https://github.com/jasonaalmeida/PCF_GridCard) by jasonaalmeida. It has been heavily modified to render a lookup field as a card, allowing enhanced display and usability while keeping the original lookup available for search functionality.
 
